@@ -4,7 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta name="description" content="Gaming Website - Live Streaming & Tournaments">
+    <title>CSS Project - Gaming</title>
+
     <!-- Preconnect for performance -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -18,14 +20,13 @@
     <!-- Icons -->
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
-
+    <!-- Add Swiper CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
     <!-- Styles -->
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/contact.css">
 </head>
 
 <body>
-
 
     <!-- start header -->
     <header>
@@ -163,10 +164,10 @@
                         </div>
                     </div>
                 </li>
-                <li><a href="#">CONTACT</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
             </ul>
 
-
+            <!-- ✅ الزراير على اليمين بس -->
             <div class="right-nav">
                 <i class="bx bx-search" id="searchIcon" aria-label="Search"></i>
                 <div class="nav-divider"></div>
@@ -190,12 +191,7 @@
             </div>
         </nav>
         <!-- end nav -->
-    
-           <!-- content -->
-          <div class="content">
-                <b>Contact<br> us</b>
-                <p><span>Home<i class="bx bx-radio-circle-marked" ></i></span>contact</p>
-          </div>
+
         <!-- Mobile Menu Overlay -->
         <div class="mobile-menu" id="mobileMenu">
             <div class="mobile-menu-header">
@@ -217,7 +213,7 @@
                             <i class="bx bx-chevron-down mobile-dropdown-toggle"></i>
                         </a>
                         <ul class="mobile-dropdown">
-                            <li><a href="index.html" class="active">HOME ONE</a></li>
+                            <li><a href="#" class="active">HOME ONE</a></li>
                             <li><a href="#">HOME TWO</a></li>
                             <li><a href="#">HOME THREE</a></li>
                             <li><a href="#">HOME FOUR</a></li>
@@ -292,7 +288,7 @@
 
                     <!-- CONTACT -->
                     <li>
-                        <a href="contact.html">
+                        <a href="#contact">
                             <i class="bx bx-envelope"></i>
                             <span>CONTACT</span>
                         </a>
@@ -333,63 +329,422 @@
                 </div>
             </div>
         </div>
+
         <!-- Overlay for mobile menu -->
         <div class="mobile-overlay" id="mobileOverlay"></div>
+
+        <!-- Header Content / Hero Section -->
+        <div class="container">
+            <div class="part-left">
+                <b class="badge">live gaming</b>
+                <h2>steaming</h2>
+                <b class="subtitle">video games online</b>
+                <div class="btn hero-btn">
+                    <div>
+                        <span>Contact us</span>
+                    </div>
+                </div>
+            </div>
+            <div class="part-right">
+                <img src="img/slider/slider_img01.png" alt="Gaming Character" loading="lazy">
+            </div>
+        </div>
+
+
+        <div class="img-bottom">
+            <img src="img/brand/brand03.png" alt="Brand 1" loading="lazy">
+            <img src="img/brand/brand04.png" alt="Brand 2" loading="lazy">
+            <img src="img/brand/brand_logo01.png" alt="Brand 3" loading="lazy">
+        </div>
+
         <!--  NEW: Green Divider with Clip-Path -->
         <div class="header-divider"></div>
     </header>
     <!-- end header -->
 
+    <!-- Start Card Section   -->
+    <section id="card-section" class="card-section">
+        <div class="container">
 
-    <section class="contact-section">
+            <!-- Card 1 -->
+            <div class="nft-card">
+                <div class="card-img">
+                    <img src="img/nft/nft_img01.jpg" alt="NFT Art">
+                </div>
+                <div class="card-info">
+                    <h3 class="card-title">WOLF GAMING ART</h3>
 
-        
-        <div class="contact-info">
-            <h1>Contact Us And Find Your MYKD</h1>
-            <p>
-                Accepteur sint occaecat ciat non proident, sunt culpa officia deserunt mollit anim id est labor umlor
-                emdolor.
-            </p>
+                    <div class="card-creator">
+                        <img src="img/nft/nft_avatar.png" alt="Avatar">
+                        <span class="creator-name">Alax Max</span>
+                        <span class="separator"></span>
+                        <span class="creator-role">CREATOR</span>
+                    </div>
 
-            <div class="info-header">
-                <span class="diamond-icon"></span>
-                INFORMATION
+                    <div class="card-bottom-box">
+                        <div class="price-tag">
+                            <span class="amount">1.002</span>
+                            <span class="currency">ETH</span>
+                        </div>
+                        <a href="#" class="btn-bid">
+                            Bid
+                            <i class="bx bx-right-arrow-alt"></i>
+                        </a>
+                    </div>
+                </div>
             </div>
 
-            <ul class="details-list">
-                <li>+971 333 222 557</li>
-                <li>info@exemple.com</li>
-                <li>New Central Park W7 Street, New York</li>
-            </ul>
+            <!-- Card 2 -->
+            <div class="nft-card">
+                <div class="card-img">
+                    <img src="img/nft/nft_img02.jpg" alt="NFT Art">
+                </div>
+                <div class="card-info">
+                    <h3 class="card-title">FOREST PRINCESS</h3>
+
+                    <div class="card-creator">
+                        <img src="img/nft/nft_avatar.png" alt="Avatar">
+                        <span class="creator-name">Alax Max</span>
+                        <span class="separator"></span>
+                        <span class="creator-role">CREATOR</span>
+                    </div>
+
+                    <div class="card-bottom-box">
+                        <div class="price-tag">
+                            <span class="amount">1.053</span>
+                            <span class="currency">ETH</span>
+                        </div>
+                        <a href="#" class="btn-bid">
+                            Bid
+                            <i class="bx bx-right-arrow-alt"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 3 -->
+            <div class="nft-card">
+                <div class="card-img">
+                    <img src="img/nft/nft_img03.jpg" alt="NFT Art">
+                </div>
+                <div class="card-info">
+                    <h3 class="card-title">GIRL FIREFLY ART</h3>
+
+                    <div class="card-creator">
+                        <img src="img/nft/nft_avatar.png" alt="Avatar">
+                        <span class="creator-name">Alax Max</span>
+                        <span class="separator"></span>
+                        <span class="creator-role">CREATOR</span>
+                    </div>
+
+                    <div class="card-bottom-box">
+                        <div class="price-tag">
+                            <span class="amount">1.024</span>
+                            <span class="currency">ETH</span>
+                        </div>
+                        <a href="#" class="btn-bid">
+                            Bid
+                            <i class="bx bx-right-arrow-alt"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
         </div>
+    </section>
+    <!-- End Card Section   -->
 
- 
-        <form class="contact-form">
-            <div class="form-row">
-                <div class="input-group">
-                    <input type="text" placeholder="Name *" required>
+    <!-- start about section -->
+    <section class="about-area">
+        <div class="container-1">
+            <p>know about us</p>
+            <h2>top rated steamers</h2>
+            <div class="buttons">
+                <button>
+                    <article class="one"></article>
+                    <article class="two"></article>
+                    BUY HERO
+                </button>
+
+                <button>
+                    <article class="one"></article>
+                    <article class="two"></article>
+                    BUY NEFTS
+                </button>
+            </div>
+        </div>
+        <hr>
+        <div class="container-2">
+            <div class="images">
+                <div class="avatar active"><img src="img/others/about_tab01.png" alt=""></div>
+                <div class="avatar"><img src="img/others/about_tab02.png" alt=""></div>
+                <div class="avatar"><img src="img/others/about_tab03.png" alt=""></div>
+                <div class="avatar"><img src="img/others/about_tab04.png" alt=""></div>
+                <div class="avatar"><img src="img/others/about_tab05.png" alt=""></div>
+                <div class="avatar"><img src="img/others/about_tab06.png" alt=""></div>
+
+            </div>
+        </div>
+        <hr>
+        <div class="container-3">
+            <div class="image">
+                <img src="img/others/about_img01.jpg" alt="">
+            </div>
+            <div class="content">
+                <div class="top">
+                    <div class="left">
+                        <h2>human game</h2>
+                        <b>rate 50%</b>
+                        <p>Lorem ipsum dolor sit amet, consteur adipiscing Duis elementum sollicitudin is yaugue
+                            euismods Nulla ullamcorper. Morbi pharetra tellus miolslis, tincidunt massa venenatis.</p>
+                    </div>
+                    <div class="right">
+                        <b><img src="img/icons/features_icon01.png" alt="">Chichi Dragon Ball</b>
+                        <b><img src="img/icons/features_icon02.png" alt="">Space Babe Night</b>
+                        <b><img src="img/icons/features_icon02.png" alt="">Dragon Ball</b>
+                    </div>
                 </div>
-                <div class="input-group">
-                    <input type="email" placeholder="Email *" required>
+                <div class="bottom">
+                    <a href="#">DRAGON BALL</a>
+                    <a href="#">NFT MARKET</a>
+                    <a href="#">SUPPORT</a>
                 </div>
             </div>
-
-            <textarea placeholder="Enter your message" required></textarea>
-
-            <button type="submit" class="submit-btn">Submit Now</button>
-        </form>
-
-    </section>
-
-    <!-- القسم السفلي: الخريطة -->
-    <div class="map-container">
-        <!-- تم استخدام خريطة نيويورك كمثال -->
-        <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d193595.15830869428!2d-74.119763973046!3d40.69766374874431!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2sNew%20York%2C%20NY%2C%20USA!5e0!3m2!1sen!2seg!4v1620000000000!5m2!1sen!2seg"
-            allowfullscreen="" loading="lazy"></iframe>
+        </div>
+       <!-- slider -->
+<div class="slider-container">
+    <div class="swiper mySlider">
+        <div class="swiper-wrapper" id="sliderWrapper">
+            <!-- Slides will be generated by JS -->
+        </div>
     </div>
 
+    <div class="slide-info">
+        <div class="slide-title" id="slideTitle">ASSASSIN'S CREED</div>
+        <div class="slide-rate" id="slideRate">RATE 65%</div>
+    </div>
+
+    <div class="progress-container">
+        <div class="progress-bar" id="progressBar"></div>
+    </div>
+
+    <div class="dots-container" id="dotsContainer"></div>
+</div>
+
+    </section>
+    <!-- end about section -->
+
+    <!-- start section team member -->
+    <section class="team-member">
+        <div class="container">
+            <p>our team member</p>
+            <h2>ACTIVE TEAM MEMBERS</h2>
+            <div class="team-members">
+                <div class="team__item">
+                    <div class="team__img">
+                        <img src="img/team/team01.png" alt="">
+                    </div>
+                    <div class="team__info">
+                        <h3>KILLER MASTER</h3>
+                        <span>Blockchain Expert</span>
+                    </div>
+
+                </div>
+                <div class="team__item">
+                    <div class="team__img">
+                        <img src="img/team/team02.png" alt="">
+                    </div>
+                    <div class="team__info">
+                        <h3>tanu mark</h3>
+                        <span>Developer</span>
+                    </div>
+
+                </div>
+                <div class="team__item">
+                    <div class="team__img">
+                        <img src="img/team/team03.png" alt="">
+                    </div>
+                    <div class="team__info">
+                        <h3>Thompson Scot</h3>
+                        <span>Art Director</span>
+                    </div>
+
+                </div>
+                <div class="team__item">
+                    <div class="team__img">
+                        <img src="img/team/team04.png" alt="">
+                    </div>
+                    <div class="team__info">
+                        <h3>Shakh Danial</h3>
+                        <span>Crypto Advisor</span>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end section team member -->
+
+    <!-- start section video -->
+    <section class="community-section">
+        <div class="community-overlay"></div>
+
+        <div class="community-content">
+            <!-- Play Button -->
+            <div class="play-btn">
+                <i class="bx bx-play"></i>
+            </div>
+
+            <!-- Title -->
+            <h2>JOIN THE <span>COMMUNITY</span></h2>
+
+            <!-- Subtitle -->
+            <p>Join our Discord community and choose your own steur</p>
+
+            <!-- CTA Button -->
+            <a href="#" class="btn-discord">JOIN DISCORD</a>
+        </div>
+
+
+    </section>
+    <!-- end section video -->
+ 
+    <!-- start section roadMap -->
+    <section class="roadMap">
+        <div class="container">
+            <div class="left">
+                <h2>a look into<br> roadmaps <br>seasons</h2>
+                <p>With Season 1 Ending with our play and Duis elementum sollicitudin is yaugue euismods Nulla ulla
+                    Player-focused updates games from Mobile App and Enjoy.</p>
+                <button>
+                    <div>roadmap</div>
+                </button>
+                <img src="img/others/roadmap.png" alt="">
+
+            </div>
+            <div class="right">
+                <div class="card">
+                    <h2>season 1</h2>
+                    <p>Battle Practice Mode</p>
+                    <p>Android Mobile</p>
+                    <p>iOS Open Beta</p>
+                    <p>Land Creation & Building</p>
+                </div>
+                <div class="card">
+                    <h2>season 2</h2>
+                    <p>Land Creation & Building</p>
+                    <p>Android Mobile</p>
+                    <p>iOS Open Beta</p>
+                    <p>Land Creation & Building</p>
+                </div>
+                <div class="card">
+                    <h2>season 3</h2>
+                    <p>Switch to 3D gameplay</p>
+                    <p>Android Mobile</p>
+                    <p>iOS Open Beta</p>
+                    <p>Land Creation & Building</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end section roadMap -->
+
+    <!-- start section Trending -->
+    <section class="trending">
+        <div class="container">
+            <div class="top">
+                <div class="left">
+                    <b> top Trending</b>
+                    <img src="./img/icons/fire.png" alt="">
+                </div>
+                <div class="right-icons">
+                    <button><i class="bx bx-chevron-left" style="color:#6d6d69;"></i></button>
+                    <button><i class="bx bx-chevron-right" style="color:#6d6d69;"></i></button>
+                </div>
+            </div>
+            <div class="bottom">
+                <div class="card">
+                    <div class="text-top">
+                        <div>
+                            <img src="img/nft/nft_avatar.png" alt="">
+                            <div>
+                                <p>Luck Crypto</p>
+                                <a href="#">@JonMax</a>
+                            </div>
+                        </div>
+                        <i class="bx bx-heart" style="color:#6d6d69;"></i>
+                    </div>
+                    <div class="img-card">
+                        <img src="img/nft/nft_img07.jpg" alt="">
+                    </div>
+                    <hr>
+                    <div class="text-bottom">
+                        <div class="left">
+                            <p>Last Bid</p>
+                            <b><i class="fa-brands fa-ethereum"></i>1.005 <span>ETH</span></b>
+                        </div>
+                        <div class="right">
+                            <button>Bid<i class="bx bx-arrow-right-stroke" style="color:#6d6d69;"></i></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="text-top">
+                        <div>
+                            <img src="img/nft/nft_avatar.png" alt="">
+                            <div>
+                                <p>Luck Crypto</p>
+                                <a href="#">@JonMax</a>
+                            </div>
+                        </div>
+                        <i class="bx bx-heart" style="color:#6d6d69;"></i>
+                    </div>
+                    <div class="img-card">
+                        <img src="img/nft/nft_img06.jpg" alt="">
+                    </div>
+                    <hr>
+                    <div class="text-bottom">
+                        <div class="left">
+                            <p>Last Bid</p>
+                            <b><i class="fa-brands fa-ethereum"></i>1.005 <span>ETH</span></b>
+                        </div>
+                        <div class="right">
+                            <button>Bid<i class="bx bx-arrow-right-stroke" style="color:#6d6d69;"></i></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="text-top">
+                        <div>
+                            <img src="img/nft/nft_avatar.png" alt="">
+                            <div>
+                                <p>Luck Crypto</p>
+                                <a href="#">@JonMax</a>
+                            </div>
+                        </div>
+                        <i class="bx bx-heart" style="color:#6d6d69;"></i>
+                    </div>
+                    <div class="img-card">
+                        <img src="img/nft/nft_img08.jpg" alt="">
+                    </div>
+                    <hr>
+                    <div class="text-bottom">
+                        <div class="left">
+                            <p>Last Bid</p>
+                            <b><i class="fa-brands fa-ethereum"></i>1.005 <span>ETH</span></b>
+                        </div>
+                        <div class="right">
+                            <button>Bid<i class="bx bx-arrow-right-stroke" style="color:#6d6d69;"></i></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end section Trending -->
+
     <!-- start footer section -->
+
     <footer>
         <div class="container">
             <div class="footer-row">
@@ -485,7 +840,10 @@
     </button>
 
     <!-- end footer section -->
-    <!-- js  -->
+
+    <!-- Scripts -->
+     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
     <script src="js/main.js"></script>
 </body>
 
