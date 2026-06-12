@@ -216,20 +216,6 @@ Key design tokens in `css/style.css` — customize the look by editing these var
 }
 ```
 
----
-
-## 📸 Screenshots
-
-<div align="center">
-
-| Desktop View | Mobile View |
-|:---:|:---:|
-| ![Desktop](![alt text](image.png)) | ![Mobile]![alt text](image-1.png) |
-
-</div>
-
----
-
 ## 🗺️ Roadmap
 
 - [x] Responsive layout (mobile, tablet, desktop)
@@ -300,8 +286,8 @@ MIT License — Free to use, modify, and distribute with attribution.
 **Khaled Elfahl** — Fullstack Developer
 
 [![Email](https://img.shields.io/badge/Email-khaledelfahl56%40gmail.com-red?style=for-the-badge&logo=gmail&logoColor=white)](mailto:khaledelfahl56@gmail.com)
-[![GitHub](https://img.shields.io/badge/GitHub-khaledelfahl-black?style=for-the-badge&logo=github)](https://github.com/khaledelfahl)
-[![Project](https://img.shields.io/badge/Project-MYKD%20Repo-6332F6?style=for-the-badge&logo=vercel)](https://github.com/khaledelfahl/MYKD-eSport-and-Gaming)
+[![GitHub](https://img.shields.io/badge/GitHub-khaledelfahl-black?style=for-the-badge&logo=github)](https://github.com/elfahl52)
+[![Project](https://img.shields.io/badge/Project-MYKD%20Repo-6332F6?style=for-the-badge&logo=vercel)](https://github.com/elfahl52/-MYKD-eSport-and-Gaming)
 
 </div>
 
